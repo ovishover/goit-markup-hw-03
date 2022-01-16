@@ -11,6 +11,9 @@
     --text-color: #212121;
 }
 
+body {
+    font-family: Roboto, sans-serif;
+}
 a {
     text-decoration: none;
 }
@@ -20,17 +23,12 @@ a:focus {
     text-decoration: none;
 }
 
-/* a:focus {
-    text-decoration: none;
-} */
-
 ul {
     list-style-type: none;
 }
 
 .logo-nav {
     font-family: Raleway;
-    font-style: normal;
     font-weight: 700;
     color: #000000;
     font-size: 26px;
@@ -54,8 +52,6 @@ ul {
 }
 
 .nav-list {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
@@ -72,13 +68,7 @@ ul {
     color: var(--accent-color);
 }
 
-/* .nav-list a:focus {
-    color: var(--accent-color);
-} */
-
 .adress-list a {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
@@ -94,14 +84,16 @@ ul {
     color: var(--accent-color);
 }
 
+.nav-list-item > .current {
+    color: var(--accent-color);
+}
+
 /* -------------------- MAIN -------------------- */
 .hero {
     background: #2f303a;
 }
 
 .hero-title {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: calc(60 / 44);
@@ -111,7 +103,7 @@ ul {
 }
 
 .button {
-    font-family: Roboto;
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -127,7 +119,7 @@ ul {
 }
 
 .button-link {
-    font-family: Roboto;
+    font-family: inherit;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -138,7 +130,7 @@ ul {
 
 .button:hover,
 .button:focus {
-    font-family: Roboto;
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -149,21 +141,7 @@ ul {
     background-color: var(--accent-color);
 }
 
-/* .button:focus {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: calc(26 / 16);
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #ffffff;
-    background-color: var(--accent-color);
-} */
-
 .title {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: calc(36 / 18);
@@ -172,8 +150,6 @@ ul {
 }
 
 .benefits-title {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16 / 14);
@@ -183,9 +159,6 @@ ul {
 }
 
 .benefits-discription {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
@@ -194,8 +167,6 @@ ul {
 
 .activity-title,
 .team-title {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
@@ -203,9 +174,6 @@ ul {
     color: #212121;
 }
 .gallery-category {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
@@ -213,8 +181,6 @@ ul {
 }
 
 .team-names {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(19 / 16);
@@ -223,9 +189,6 @@ ul {
 }
 
 .team-positions {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(19 / 16);
     letter-spacing: 0.03em;
@@ -243,7 +206,6 @@ ul {
 
 .logo-footer {
     font-family: Raleway;
-    font-style: normal;
     font-weight: 700;
     color: #ffffff;
     font-size: 26px;
@@ -256,9 +218,6 @@ ul {
 }
 
 .adress-map {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
@@ -266,9 +225,6 @@ ul {
 }
 
 .footer-link {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
