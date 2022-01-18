@@ -1,24 +1,40 @@
-/* -------------------- КОНТРОЛЬ ОТСТУПОВ -------------------- */
-
 /* * {
-    outline: 1px solid tomato;
+    margin: 0;
 } */
+
+section {
+    outline: 1px solid tomato;
+}
 
 /* -------------------- BASIC RULES -------------------- */
 
 :root {
     --accent-color: #2196f3;
-    --text-color: #f54545;
+    --text-color: #000000;
 }
 
-html {
+* {
     box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+section {
+    margin: 0;
+    padding: 94px;
 }
 
 body {
@@ -31,10 +47,6 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-}
-
-ul {
-    list-style-type: none;
 }
 
 .logo-nav {
