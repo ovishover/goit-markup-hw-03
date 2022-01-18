@@ -5,7 +5,8 @@
 ::before {
     box-sizing: border-box;
 }
-asdasd html {
+
+html {
     -moz-tab-size: 4;
     tab-size: 4;
 }
