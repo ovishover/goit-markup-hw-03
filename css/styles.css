@@ -13,42 +13,6 @@ section {
     --text-color: #000000;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-}
-
-ul {
-    margin: 0;
-    list-style-type: none;
-}
-
-section {
-    margin: 0;
-    padding: 94px;
-}
-
-body {
-    font-family: Roboto, 'sans-serif';
-}
-a {
-    text-decoration: none;
-}
-
-a:hover,
-a:focus {
-    text-decoration: none;
-}
-
 .logo-nav {
     font-family: Raleway, 'sans-serif';
     font-weight: 700;
