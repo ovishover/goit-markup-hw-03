@@ -1,9 +1,4 @@
-/* * {
-    margin: 0;
-} */
-
 section {
-    outline: 1px solid tomato;
     padding: 94px 0;
 }
 
@@ -20,6 +15,8 @@ html {
 :root {
     --accent-color: #2196f3;
     --text-color: #000000;
+    --margin-img: 30px;
+    --margin-text: 10px;
 }
 
 .logo-nav {
@@ -32,10 +29,15 @@ html {
 }
 
 .container {
-    width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 1200px;
     padding: 0 15px;
+    margin: 0 auto;
+    outline: 2px solid tomato; /* -- проверка границ -- */
+    background-color: rgb(255, 183, 183); /* -- проверка границ -- */
+}
+
+section {
+    outline: 1px solid violet; /* -- проверка границ -- */
 }
 
 img {
@@ -47,7 +49,9 @@ img {
 /* -------------------- HEADER -------------------- */
 
 .head-white {
-    background-color: #ffffff;
+    background-color: #aeffc2;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .logo-nav > span {
@@ -124,6 +128,7 @@ img {
 
 .hero-button {
     background-color: var(--accent-color);
+    padding: 10px 32px;
 }
 
 .button-link {
@@ -164,6 +169,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+    margin-bottom: var(--margin-text);
 }
 
 .benefits-discription {
@@ -172,7 +178,21 @@ img {
     letter-spacing: 0.03em;
     color: #757575;
 }
+/* .benefits-list,
+.activity-list,
+.team-list {
+    display: flex;
+} */
 
+.benefits-item,
+.team-item {
+    width: 270px;
+    margin: 0 auto;
+}
+
+.activiy-item > img {
+    margin-left: 30px;
+}
 .activity-title,
 .team-title {
     font-weight: 700;
@@ -194,13 +214,18 @@ img {
     line-height: calc(19 / 16);
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: var(--margin-text);
 }
-
 .team-positions {
     font-size: 16px;
     line-height: calc(19 / 16);
     letter-spacing: 0.03em;
     color: #757575;
+}
+
+.teams {
+    padding-top: var(--margin-img);
+    padding-bottom: var(--margin-img);
 }
 /* -------------------- FOOTER -------------------- */
 .logo-footer > span {

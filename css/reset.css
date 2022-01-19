@@ -11,15 +11,13 @@ h6 {
 ul {
     margin: 0;
     list-style-type: none;
+    padding: 0;
 }
 
 button {
     cursor: pointer;
 }
 
-img {
-    display: block;
-}
 section {
     margin: 0;
 }
@@ -27,10 +25,10 @@ section {
 body {
     font-family: Roboto, 'sans-serif';
 }
+
 a {
     text-decoration: none;
 }
-
 a:hover,
 a:focus {
     text-decoration: none;
