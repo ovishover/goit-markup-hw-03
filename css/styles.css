@@ -4,8 +4,17 @@
 
 section {
     outline: 1px solid tomato;
+    padding: 94px 0;
 }
 
+html {
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
 /* -------------------- BASIC RULES -------------------- */
 
 :root {
@@ -20,6 +29,19 @@ section {
     font-size: 26px;
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
+}
+
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 /* -------------------- HEADER -------------------- */
