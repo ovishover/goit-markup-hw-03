@@ -1,13 +1,13 @@
 /* -------------------- проверка границ -------------------- */
-/* section {
+section {
     background-color: #aeffc2;
-    outline: 1px solid violet;
+    outline: 3px dotted rgb(43, 56, 231);
 }
 
 .container {
+    background-color: rgb(255, 210, 240);
     outline: 2px solid tomato;
-    background-color: rgb(255, 183, 183);
-} */
+}
 
 /* -------------------- BASIC RULES -------------------- */
 
@@ -183,11 +183,6 @@ img {
     letter-spacing: 0.03em;
     color: #757575;
 }
-/* .benefits-list,
-.activity-list,
-.team-list {
-    display: flex;
-} */
 
 .benefits-item,
 .team-item {
@@ -195,9 +190,19 @@ img {
     margin: 0 auto;
 }
 
-.activiy-item > img {
-    margin-left: 30px;
+.activity-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--margin-img));
+    margin-top: calc(-1 * var(--margin-img));
 }
+
+.activity-list > .activity-item {
+    flex-basis: calc(100% / 3 - var(--margin-img));
+    margin-left: var(--margin-img);
+    margin-top: var(--margin-img);
+}
+
 .activity-title,
 .team-title {
     font-weight: 700;
