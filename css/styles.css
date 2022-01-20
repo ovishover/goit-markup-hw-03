@@ -1,11 +1,11 @@
 /* -------------------- проверка границ -------------------- */
 section {
-    background-color: #aeffc2;
+    /* background-color: #aeffc2; */
     outline: 3px dotted rgb(43, 56, 231);
 }
 
 .container {
-    background-color: rgb(255, 210, 240);
+    /* background-color: rgb(255, 210, 240); */
     outline: 2px solid tomato;
 }
 
@@ -33,6 +33,7 @@ html {
     font-size: 26px;
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
+    margin-right: 93px;
 }
 
 .container {
@@ -42,7 +43,8 @@ html {
 }
 
 section {
-    padding: 94px auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 img {
@@ -76,8 +78,14 @@ img {
     color: var(--text-color);
 }
 
+.nav-list-item + .nav-list-item {
+    margin-left: 50px;
+}
 .nav-list a {
     color: var(--text-color);
+}
+.phone-number {
+    margin-left: 50px;
 }
 
 .nav-list a:hover,
@@ -85,6 +93,10 @@ img {
     color: var(--accent-color);
 }
 
+.adress-list {
+    margin-left: auto;
+    align-items: center;
+}
 .adress-list a {
     font-weight: 500;
     font-size: 14px;
@@ -103,6 +115,18 @@ img {
 
 .nav-list-item > .current {
     color: var(--accent-color);
+}
+
+.header-container {
+    display: flex;
+}
+
+.head-nav {
+    align-items: center;
+}
+
+.flexability {
+    display: flex;
 }
 
 /* -------------------- MAIN -------------------- */
@@ -184,12 +208,19 @@ img {
     color: #757575;
 }
 
-.benefits-item,
-.team-item {
+.benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc(100% / 3 - var(--margin-img));
+}
+.benefits-item {
     width: 270px;
     margin: 0 auto;
 }
 
+.benefits-conteiner {
+    padding: 0px;
+}
 .activity-list {
     display: flex;
     flex-wrap: wrap;
@@ -203,13 +234,20 @@ img {
     margin-top: var(--margin-img);
 }
 
+.activity-img {
+    margin-right: 0px;
+}
 .activity-title,
 .team-title {
+    display: block;
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .gallery-category {
     font-size: 16px;
@@ -231,6 +269,23 @@ img {
     line-height: calc(19 / 16);
     letter-spacing: 0.03em;
     color: #757575;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--margin-img));
+    margin-top: calc(-1 * var(--margin-img));
+}
+
+.team-list > .team-item {
+    flex-basis: calc(100% / 4 - var(--margin-img));
+    margin-left: var(--margin-img);
+    margin-top: var(--margin-img);
+}
+
+.team {
+    background-color: #f5f4fa;
 }
 
 .teams {
