@@ -27,7 +27,7 @@ html {
 }
 
 .logo-nav {
-    font-family: Raleway, 'sans-serif';
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     color: #000000;
     font-size: 26px;
@@ -59,10 +59,11 @@ img {
     background-color: #ffffff;
     padding-top: 24px;
     padding-bottom: 25px;
+    border-bottom: 1px solid #ececec;
 }
 
 .logo-nav > span {
-    font-family: Raleway, 'sans-serif';
+    font-family: Raleway, sans-serif;
     color: var(--accent-color);
 }
 
@@ -132,6 +133,9 @@ img {
 /* -------------------- MAIN -------------------- */
 .hero {
     background: #2f303a;
+    padding-top: 200px;
+    padding-bottom: 280px;
+    text-align: center;
 }
 
 .hero-title {
@@ -158,6 +162,9 @@ img {
 .hero-button {
     background-color: var(--accent-color);
     padding: 10px 32px;
+    margin-top: 30px;
+    border-radius: 4px;
+    border-color: transparent;
 }
 
 .button-link {
@@ -211,16 +218,12 @@ img {
 .benefits-list {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: calc(100% / 3 - var(--margin-img));
+    flex-basis: calc(100% / 4 - var(--margin-img));
 }
 .benefits-item {
     width: 270px;
-    margin: 0 auto;
 }
 
-.benefits-conteiner {
-    padding: 0px;
-}
 .activity-list {
     display: flex;
     flex-wrap: wrap;
@@ -234,6 +237,9 @@ img {
     margin-top: var(--margin-img);
 }
 
+.activity {
+    padding-top: 0px;
+}
 .activity-img {
     margin-right: 0px;
 }
@@ -246,8 +252,7 @@ img {
     letter-spacing: 0.03em;
     color: #212121;
     margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
 .gallery-category {
     font-size: 16px;
@@ -294,16 +299,17 @@ img {
 }
 /* -------------------- FOOTER -------------------- */
 .logo-footer > span {
-    font-family: Raleway, 'sans-serif';
+    font-family: Raleway, sans-serif;
     color: var(--accent-color);
 }
 
 .footer {
     background: #2f303a;
+    padding: 60px 0px;
 }
 
 .logo-footer {
-    font-family: Raleway, 'sans-serif';
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     color: #ffffff;
     font-size: 26px;
@@ -315,6 +321,9 @@ img {
     color: #ffffff;
 }
 
+.footer-adress {
+    margin-top: 9px;
+}
 .adress-map {
     font-size: 14px;
     line-height: calc(24 / 14);
