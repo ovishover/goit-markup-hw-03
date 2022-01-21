@@ -1,13 +1,11 @@
 /* -------------------- проверка границ -------------------- */
-section {
-    /* background-color: #aeffc2; */
+/* section {
     outline: 3px dotted rgb(43, 56, 231);
 }
 
 .container {
-    /* background-color: rgb(255, 210, 240); */
     outline: 2px solid tomato;
-}
+} */
 
 /* -------------------- BASIC RULES -------------------- */
 
@@ -295,6 +293,10 @@ img {
     flex-basis: calc(100% / 4 - var(--margin-img));
     margin-left: var(--margin-img);
     margin-top: var(--margin-img);
+    background-color: #ffffff;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team {
@@ -304,6 +306,7 @@ img {
 .teams {
     padding-top: var(--margin-img);
     padding-bottom: var(--margin-img);
+    text-align: center;
 }
 /* -------------------- FOOTER -------------------- */
 .logo-footer > span {
