@@ -217,12 +217,21 @@ img {
 
 .benefits-list {
     display: flex;
-    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--margin-img));
+}
+
+.benefits-list > .benefits-item {
+    flex-basis: calc(100% / 4 - var(--margin-img));
+    margin-left: var(--margin-img);
+}
+
+/* .benefits-list {
+    display: flex;
     flex-basis: calc(100% / 4 - var(--margin-img));
 }
 .benefits-item {
     width: 270px;
-}
+} */
 
 .activity-list {
     display: flex;
@@ -278,7 +287,6 @@ img {
 
 .team-list {
     display: flex;
-    flex-wrap: wrap;
     margin-left: calc(-1 * var(--margin-img));
     margin-top: calc(-1 * var(--margin-img));
 }
