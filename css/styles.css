@@ -23,7 +23,7 @@
     margin: 0 auto;
 }
 
-section {
+.section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -131,8 +131,7 @@ html {
 /* -------------------- MAIN -------------------- */
 .hero {
     background: #2f303a;
-    padding-top: 200px;
-    padding-bottom: 280px;
+    padding: 200px 0;
     text-align: center;
 }
 
