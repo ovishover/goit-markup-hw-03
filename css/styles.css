@@ -165,8 +165,6 @@ html {
 .buttons-list {
     display: flex;
     justify-content: center;
-}
-.radio-buttons > .container {
     margin-bottom: 50px;
 }
 
